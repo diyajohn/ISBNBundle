@@ -1,0 +1,25 @@
+{
+  "name" : "testdemo/ISBNbundle",
+  "description" : "A bundle to generate a random ISBN and check if a given ISBN is valid",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Diya John",
+    "email" : "john.diya@gmail.com"
+  }],
+  "keywords" : [
+    "ISBN bundle"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "TestDemo\\ISBNBundle" : ""
+    }
+  },
+  "target-dir" : "TestDemo/ISBNBundle",
+  "repositories" : [{
+  }]
+}
